@@ -7,7 +7,7 @@ Para empezar a utilizar Jasmine, añadi  ```gem jasmine``` a mi archivo Gemfile 
 
 ## Gema Jasmine
 
-![Archivo Gemfile](img\1.jpg)
+![Archivo Gemfile]-Pruebas-JS-Ajax/img/1.jpg)
 
 Se crea ahora en  ```spec/javascripts/ ``` el archivo  ```basic_check_spec.js ``` el cual contendra el siguiente codigo:
 ```
