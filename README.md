@@ -7,7 +7,7 @@ Para empezar a utilizar Jasmine, añadi  ```gem jasmine``` a mi archivo Gemfile 
 
 ## Gema Jasmine
 
-![Archivo Gemfile]-Pruebas-JS-Ajax/img/1.jpg)
+![Archivo Gemfile](-Pruebas-JS-Ajax/img/1.jpg)
 
 Se crea ahora en  ```spec/javascripts/ ``` el archivo  ```basic_check_spec.js ``` el cual contendra el siguiente codigo:
 ```
@@ -17,7 +17,7 @@ describe ('Jasmine basic check', function() {
 ```
 ## basic_check_spec.js
 
-![basic_check_spec.js](img\2.jpg)
+![basic_check_spec.js](-Pruebas-JS-Ajax/img\2.jpg)
 
 Procedemos a ejecutar ```rails server``` en consola en la dirección http://localhost:3000/specs
 
@@ -25,28 +25,28 @@ Procedemos a ejecutar ```rails server``` en consola en la dirección http://loca
 1. Gema Jasmine-Rails
 
 Se presenta el siguiente error :
-![Error](img\3.jpg)
+![Error](-Pruebas-JS-Ajax/img\3.jpg)
 cuando se ejecuta solo con la ```gem Jasmine``` por lo tanto es necesario agregar ```gem jasmine-rails```
-![Archivo Gemfile](img\4.jpg)
+![Archivo Gemfile](-Pruebas-JS-Ajax/img\4.jpg)
 
 2. boot0.js
 
 El error que se nos presenta es el sigueinte:
-![Error](img\5.jpg)
+![Error](-Pruebas-JS-Ajax/img\5.jpg)
 
 Es necesario agregar en la ruta ```app/assets/config/manifest.js``` la siguiente linea
 
 ```//= link boot0.js```
 
-![Error](img\6.jpg)
+![Error](-Pruebas-JS-Ajax/img\6.jpg)
 
 ## Prueba Jasmine
-![Jasmine](img\7.jpg)
+![Jasmine](-Pruebas-JS-Ajax/img\7.jpg)
 
 Se puede apreciar que se ve en blanco la pantalla de jasmin la solución que encontre fue
 instalar ```gem 'rake', '13.1.0' ``` y ejecutar ``` rake jasmine ``` lo cual nos devolveria lo siguiente:
 
-![Jasmine](img\8.jpg)
+![Jasmine](-Pruebas-JS-Ajax/img\8.jpg)
 
 
 ## Preguntas
@@ -111,7 +111,7 @@ Pregunta: Experimenta el siguiente código de especificaciones (specs) de Jasmin
   });
 });
 ```
-![prueba](img\9.jpg)
+![prueba](-Pruebas-JS-Ajax/img\9.jpg)
 
 
 ¿Que hacen las siguientes líneas del código anterior?.
